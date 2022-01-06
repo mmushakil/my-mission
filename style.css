@@ -5,9 +5,22 @@
 }
 h1 {
   font-size: 50px;
+  font-weight: bold;
+}
+
+#border {
+  border-left: orangered solid 5px;
+  padding-left: 7px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 50px;
+  padding: 15px 10px;
 }
 section {
   display: flex;
+  padding: 5%;
 }
 
 .half-width {
@@ -26,9 +39,78 @@ section {
 .width2 {
   width: 30%;
   padding-left: 5%;
-  padding-bottom: 10%;
+  padding-bottom: 1%;
+  margin-bottom: 15%;
+  margin-top: 15%;
 }
 
 .width2 img {
   width: 100%;
+}
+
+#mission {
+  background-color: rgb(220, 228, 228);
+  background-size: 50%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#vision {
+  background-color: rgb(240, 207, 220);
+  background-size: 50%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#goals {
+  background-color: #dff397e3;
+  background-size: 50%;
+  border-radius: 15px;
+  margin: 10px;
+}
+.orange {
+  color: orange;
+}
+
+a {
+  text-decoration: none;
+  background-color: tomato;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+#codingimg {
+  width: 50%;
+  height: 80%;
+}
+
+#coding {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: left;
+  margin-left: 50px;
+  padding-bottom: 50px;
+}
+
+#community {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: right;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 50px;
+}
+
+#communityimg {
+  height: 100%;
+  width: 80%;
+}
+
+#com-padding {
+  padding-left: 50px;
+  margin-left: 50px;
 }
