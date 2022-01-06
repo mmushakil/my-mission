@@ -82,15 +82,15 @@ a {
 }
 
 #codingimg {
-  width: 50%;
-  height: 80%;
+  width: 70%;
+  height: 100%;
 }
 
 #coding {
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-size: 15%;
-  background-position: left;
+  background-position: top-left;
   margin-left: 50px;
   padding-bottom: 50px;
 }
@@ -98,7 +98,7 @@ a {
 #community {
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
-  background-size: 15%;
+  background-size: 17%;
   background-position: right;
   margin-left: 50px;
   margin-right: 50px;
